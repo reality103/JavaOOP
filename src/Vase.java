@@ -11,11 +11,13 @@
 public class Vase extends Item{
    private int height;
    private String material;
+   private String color;
 
     public Vase() {
         super();
         height = 0;
         material = "";
+        
     }
 
     public Vase(int value, String creator, int height, String material) {
